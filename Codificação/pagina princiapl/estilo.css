@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:cornsilk;
+}
+
+main h2 , h3 {
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
+.main-nav {
+
+    border: 2px solid black;
+    border-radius: 1rem 1rem 0 0;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    font-size: 1.2rem;
+    margin: 1rem;
+    transition: 0.3s;
+
+}
+
+.links:hover{
+    color:black;
+    text-decoration: underline;
+     
+}

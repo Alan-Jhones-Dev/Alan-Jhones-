@@ -1,0 +1,25 @@
+.formacoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2px 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    border-radius: 0 0 1rem 1rem ;
+    padding: 1rem;
+}
+
+div h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+div h4 , p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+div p {
+    margin-bottom: 1rem;
+}
+
+
